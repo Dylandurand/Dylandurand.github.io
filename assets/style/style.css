@@ -71,7 +71,7 @@ body{
 /* image d'arrière plan jumbotron */
 .bgjumbo{
     height: 500px;
-    background-image: url(/assets/Images/Photo-slider-temoignage.png);
+    background-image: url(/assets/images/Photo-slider-temoignage.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -79,7 +79,7 @@ body{
 
 .bgjumbo2{
     height: 600px;
-    background-image: url(/assets/Images/photo-Dylan-site-accueil.png);
+    background-image: url(/assets/images/photo-Dylan-site-accueil.png);
     background-size: 55%;
     background-repeat: no-repeat;
     background-position: right 35%;
@@ -278,7 +278,7 @@ transition: 0.5s;
 
 /*pied de page */
 #monfooter{
-    background-image: url(/assets/Images/footer-wave.png);
+    background-image: url(/assets/images/footer-wave.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
