@@ -1,0 +1,367 @@
+/* animation css 1 */
+@-webkit-keyframes circle {
+	0% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		width: 100%;
+		height: 100%;
+		opacity: 0.15;
+	}
+}
+@keyframes circle {
+	0% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		width: 100%;
+		height: 100%;
+		opacity: 0.15;
+	}
+}
+
+/* animation 2*/
+@keyframes wheelHueColor {
+    from, to { color: white; }
+    90%      { color: #fc8d0e; }
+}
+
+/*fin animation */
+/* couleur de fond du site */
+body{
+    background-image: url(/assets/images/flower-4931280_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+/* Halo lumineux */
+.light div::before {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 0;
+	height: 0;
+	background: rgba(255,255,255,.2);
+	border-radius: 100%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	opacity: 0;
+}
+.light div:hover::before {
+	-webkit-animation: circle .75s;
+	animation: circle .75s;
+}
+
+/* couleur d'arrière plan navbar */
+.navbar.navbar-expand-lg.navbar-light.manavbar{
+    background-color: #ffffff99!important;
+}
+.manavbar{
+    background-color: #ffffff99!important;
+}
+
+/* image d'arrière plan jumbotron */
+.bgjumbo{
+    height: 500px;
+    background-image: url(/assets/Images/Photo-slider-temoignage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bgjumbo2{
+    height: 600px;
+    background-image: url(/assets/Images/photo-Dylan-site-accueil.png);
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: right 35%;
+}
+
+/* hauteur des colonnes */
+.coljumb{
+    height: 500px;
+    padding-top: 110px;
+    background-color: rgba(0,0,0,.50);
+}
+
+.coljumb2{
+    height: 600px;
+    padding-top: 150px;
+    background-color: #3F0577;
+}
+
+/*taille des icônes*/
+i.fas.fa-star{
+    font-size: 3.5rem;
+}
+
+a.decmoiglobal{
+    font-size: 27.5px;
+    color: white;
+}
+
+a.decmoiglobal:hover{
+    text-decoration: none!important;
+    color: #fc8d0e!important;
+}
+
+/* typo pour les titres */
+h1{
+font-family: halcom extrabold, sans-serif;
+font-style: normal;
+font-weight: 800 !important;
+color: #3F0577;
+font-size: 2.25rem !important;
+}
+
+/* titre de la page des présentations de travaux */
+.capital{
+text-transform: uppercase;
+}
+
+h2{
+    font-family: halcom, sans-serif;
+    font-style: normal;
+    font-weight: 600 !important;
+    color: #3F0577;
+    font-size: 1.75rem !important;
+    }
+
+h2#presentation{
+    font-size: 2.25rem !important;
+}
+
+h3{
+        font-family: halcom, sans-serif;
+        font-style: normal;
+        font-weight: 400 !important;
+        color: #3F0577;
+        }
+
+h4{
+            font-family: halcom thin, serif;
+            font-style: normal;
+            font-weight: 400 !important;
+            }
+
+h5{
+font-family: halcom bold, sans-serif;
+font-style: normal;
+color: #3F0577;
+}
+
+p{
+font-family: halcom regular, sans-serif;
+font-style: normal;
+}
+
+a{
+    font-family: halcom regular, sans-serif;
+    font-style: normal;
+    }
+
+label{
+        font-family: halcom regular, sans-serif;
+        font-style: normal;
+        }
+
+.titreaccueil{
+    font-size: 45px!important;
+}
+
+.staccueil{
+    font-size: 35px!important;
+}
+/* fin de distribution des typos */
+
+/* couleur du lien de menu inactif */
+a.lieninactif{
+    color:#0000006e!important;
+}
+
+a.lienactif{
+    color:#3F0577!important;
+}
+
+a.lieninactif:hover{
+    color:#3F0577!important;
+    text-decoration: underline;
+}
+
+a.nav-link.text-light.lienactif:hover{
+    color: #3F0577!important;
+}
+
+/* page accueil */
+/* design du texte */
+.violet{
+    color: #3F0577;
+    font-weight: bold;
+}
+
+.orange{
+    color: #fc8d0e;
+    font-weight: bold;
+}
+
+/*design des boutons */
+.mesboutons{
+    border-color: #3F0577!important;
+    color: #3F0577!important;
+}
+
+.mesboutonsimportant{
+    border-color: #fc8d0e!important;
+    background-color: #fc8d0e!important;
+    color: white!important;
+}
+.mesboutons:hover{
+color:white!important;
+background-color: #3F0577!important;
+transform: scale(1.2);
+transition: 0.5s;
+}
+
+.mesboutonsimportant:hover{
+    border-color: #3F0577!important;
+    color:white!important;
+    background-color: #3F0577!important;
+    transform: scale(1.2);
+    transition: 0.5s;
+    }
+
+.mesboutons2{
+    border-color: #fc8d0e!important;
+    color: white!important;
+    background-color: #fc8d0e!important;
+}
+.mesboutons2:hover{
+    border-color: #3F0577!important;
+color:white!important;
+background-color: #3F0577!important;
+transform: scale(1.2);
+transition: 0.5s;
+}
+
+/*design des icônes */
+.mesicones{
+    color: #3F0577;
+    font-size: 1.5rem;
+}
+
+.mesicones2{
+    color: #3F0577;
+    font-size: 1.75rem;
+}
+
+.mesicones3{
+    color: #3F0577;
+    font-size: 1rem;
+}
+
+.mesicones4{
+    color:#fc8d0e;
+    font-size: 1rem;
+}
+
+.iconesfoot{
+    font-size: 1.25rem;
+}
+
+/*pied de page */
+#monfooter{
+    background-image: url(/assets/Images/footer-wave.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Design de la card du portfolio*/
+.mycard{
+    background-color: #3F0577;
+    color: white;
+}
+
+.mycard a{
+    color: #fc8d0e;
+}
+
+.mycard a:hover{
+    color:white;
+}
+
+/* fond nav de la page portfolio*/
+.fondnav{
+background-color: #3F0577 !important;
+color: white !important;
+text-align: center;
+font-size: 20px;;
+}
+
+a.page-link.fondnav{
+    padding: 3vh;
+}
+
+.fondnav:hover{
+    color: #fc8d0e !important;
+}
+
+.chiffreactif{
+    color: #fc8d0e!important;
+}
+
+.flecheinactif{
+    background-color: #0f0e24 !important;
+}
+
+.flecheinactif:hover{
+    color: white !important;
+}
+
+/* bordure liste des items portfolio */
+.list-group-item{
+    background-color: transparent!important;
+}
+li.list-group-item.itempositif{
+    border-top: 1px solid #3F057750!important;
+    border-bottom: 1px solid #3F057750!important;
+    width: 80%;
+}
+
+li.list-group-item.itemnegatif{
+    border-top: 1px solid #fc8d0e75!important;
+    border-bottom: 1px solid #fc8d0e75!important;
+    width: 80%;
+}
+/* bouton responsive */
+button.navbar-toggler{
+    background-color: white !important;
+}
+
+/* animation porfolio */
+.card:hover img.card-img-top{
+-webkit-animation: circle.0.255s;
+animation: circle .0.255s;
+}
+
+/* animation étoile */
+.fas.fa-star{
+    color: white;
+    animation: wheelHueColor 7.5s infinite;
+}
+
+.titretem{
+    color: white;
+    animation: wheelHueColor 7.5s infinite!important;
+}
+
+.texttem{
+    color: white;
+}
