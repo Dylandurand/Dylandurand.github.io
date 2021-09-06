@@ -365,3 +365,7 @@ animation: circle .0.255s;
 .texttem{
     color: white;
 }
+
+#presentation{
+    text-align: center;
+}
