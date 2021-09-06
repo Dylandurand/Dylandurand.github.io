@@ -365,3 +365,8 @@ animation: circle .0.255s;
 .texttem{
     color: white;
 }
+
+/* Image Dylan */
+.img_resize{
+    width: 75%;
+}
