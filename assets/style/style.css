@@ -368,5 +368,9 @@ animation: circle .0.255s;
 
 /* Image Dylan */
 .imgresize{
-    width: 75%;
+    width: 95%;
+}
+
+#presentation{
+    text-align: center;
 }
