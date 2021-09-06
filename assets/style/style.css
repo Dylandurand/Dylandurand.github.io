@@ -365,13 +365,3 @@ animation: circle .0.255s;
 .texttem{
     color: white;
 }
-
-/* Image Dylan */
-.imgresize{
-    width: 60%!important;
-}
-
-#presentation{
-    text-align: center;
-    padding: 50px;
-}
